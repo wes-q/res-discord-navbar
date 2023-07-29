@@ -4,6 +4,10 @@ export default {
     darkMode: "class",
     theme: {
         extend: {
+            backgroundImage: {
+                tailwind: "url('./img/tailwind-whole.svg')",
+                clock: "url('./img/clock.svg')",
+            },
             transitionProperty: {
                 spacing: "margin, padding",
             },
