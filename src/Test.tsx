@@ -7,7 +7,7 @@ export default function Test() {
         <>
             <nav className="peer fixed bottom-0 sm:top-0 duration-500 ease-in-out bg-zinc-800 h-20 w-screen sm:w-20 sm:min-h-screen group sm:hover:w-64 text-sky-300">
                 <ul className="flex flex-row items-center w-full sm:flex-col h-full">
-                    <li className="w-full sm:mt-10">
+                    <li className="w-full">
                         <a href="#" className="flex justify-center items-center sm:justify-start h-20 grayscale hover:bg-black hover:grayscale-0 transition duration-500">
                             <svg className="inline w-8 mx-6 min-w-0 sm:min-w-[2rem]" data-icon="cat" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <g>
