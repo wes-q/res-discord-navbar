@@ -1,5 +1,3 @@
-import clock from "./assets/clock.svg";
-
 export default function Test() {
     function toggleDarkMode() {
         document.documentElement.classList.toggle("dark");
