@@ -1,27 +1,18 @@
-# React + TypeScript + Vite
+# Implementation of Discord Animated Navbar
+## Project Goals - Learn animated navbar + mobile responsive + dark mode + SVG
+### Live Preview - https://iamwesofph.github.io/res-discord-navbar/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Stack used: HTML CSS Typescript React Tailwind Vite
 
-Currently, two official plugins are available:
+Tablet Laptop Light Mode
+![Laptop Light](https://github.com/iamwesofph/res-discord-navbar/assets/121594156/144bb50a-4ce5-4a25-8f61-8b7779d2c4da)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tablet Laptop Dark Mode
+![Laptop Dark](https://github.com/iamwesofph/res-discord-navbar/assets/121594156/10c44e32-06c6-46c5-b855-37cdca1d67da)
 
-## Expanding the ESLint configuration
+Mobile Light Mode
+![Mobile Light](https://github.com/iamwesofph/res-discord-navbar/assets/121594156/0c62e12c-771e-427e-8543-2bc9f21ee991)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Mobile Dark Mode
+![Mobile Dark](https://github.com/iamwesofph/res-discord-navbar/assets/121594156/e1717c90-b6b3-44a8-accf-5f5794f46eef)
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
