@@ -1,5 +1,3 @@
-import tailwind from "./assets/Tailwind_CSS_logo.svg.png";
-
 export default function Test() {
     function toggleDarkMode() {
         document.documentElement.classList.toggle("dark");
