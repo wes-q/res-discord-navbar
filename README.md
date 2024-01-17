@@ -1,6 +1,6 @@
 # Implementation of Discord Animated Navbar
 ## Project Goals - Learn animated navbar + mobile responsive + dark mode + SVG
-### Live Preview - https://iamwesofph.github.io/res-discord-navbar/
+### Live Preview - https://wes-q.github.io/res-discord-navbar/
 
 Stack used: HTML CSS Typescript React Tailwind Vite
 
